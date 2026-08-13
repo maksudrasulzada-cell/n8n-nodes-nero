@@ -1,7 +1,7 @@
 {
-  "name": "n8n-nodes-nero",
+  "name": "n8n-nodes-aimedia",
   "version": "0.1.0",
-  "description": "n8n node for NERO — send Instagram/Messenger/WhatsApp/Telegram messages, record what the bot collects, pause the bot for a human, and read the catalogue.",
+  "description": "aimedia.az node for n8n — send Instagram/Messenger/WhatsApp/Telegram messages, record what the bot collects, pause the bot for a human, and read the catalogue.",
   "keywords": [
     "n8n-community-node-package",
     "n8n",
@@ -19,7 +19,7 @@
     "name": "AIMEDIA",
     "url": "https://aimedia.az"
   },
-  "homepage": "https://github.com/maksudrasulzada-cell/n8n-nodes-nero",
+  "homepage": "https://github.com/maksudrasulzada-cell/n8n-nodes-aimedia",
   "main": "index.js",
   "scripts": {
     "test": "node test/local-test.js"
@@ -40,9 +40,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maksudrasulzada-cell/n8n-nodes-nero.git"
+    "url": "git+https://github.com/maksudrasulzada-cell/n8n-nodes-aimedia.git"
   },
   "bugs": {
-    "url": "https://github.com/maksudrasulzada-cell/n8n-nodes-nero/issues"
+    "url": "https://github.com/maksudrasulzada-cell/n8n-nodes-aimedia/issues"
   }
 }

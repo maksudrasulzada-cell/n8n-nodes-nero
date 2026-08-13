@@ -14,7 +14,7 @@ class NeroApi {
 	constructor() {
 		this.name = 'neroApi';
 		this.displayName = 'NERO API';
-		this.documentationUrl = 'https://github.com/maksudrasulzada-cell/n8n-nodes-nero';
+		this.documentationUrl = 'https://github.com/maksudrasulzada-cell/n8n-nodes-aimedia';
 		this.properties = [
 			{
 				displayName: 'API Key',

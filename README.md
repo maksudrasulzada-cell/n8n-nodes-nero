@@ -1,4 +1,4 @@
-# n8n-nodes-nero
+# n8n-nodes-aimedia
 
 The **aimedia.az** node — an n8n community node for the AI Media inbox at [app.aimedia.az](https://app.aimedia.az), behind our Instagram, Messenger, WhatsApp and Telegram bots.
 
@@ -8,7 +8,7 @@ It replaces the stack of HTTP Request nodes a bot workflow needs. Every operatio
 
 ## Install
 
-n8n → **Settings → Community nodes → Install** → `n8n-nodes-nero`
+n8n → **Settings → Community nodes → Install** → `n8n-nodes-aimedia`
 
 ## Credential
 
