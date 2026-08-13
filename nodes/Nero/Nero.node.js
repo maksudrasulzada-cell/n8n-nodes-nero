@@ -97,7 +97,7 @@ class Nero {
 		this.description = {
 			displayName: 'NERO',
 			name: 'nero',
-			icon: 'file:nero.svg',
+			icon: 'file:aimedia.png',
 			group: ['output'],
 			version: 1,
 			subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
