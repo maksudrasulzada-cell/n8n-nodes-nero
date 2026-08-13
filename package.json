@@ -1,0 +1,48 @@
+{
+  "name": "n8n-nodes-nero",
+  "version": "0.1.0",
+  "description": "n8n node for NERO — send Instagram/Messenger/WhatsApp/Telegram messages, record what the bot collects, pause the bot for a human, and read the catalogue.",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "nero",
+    "aimedia",
+    "instagram",
+    "messenger",
+    "whatsapp",
+    "telegram",
+    "inbox",
+    "chatbot"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "AIMEDIA",
+    "url": "https://aimedia.az"
+  },
+  "homepage": "https://github.com/maksudrasulzada-cell/n8n-nodes-nero",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/local-test.js"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "credentials/NeroApi.credentials.js"
+    ],
+    "nodes": [
+      "nodes/Nero/Nero.node.js"
+    ]
+  },
+  "files": [
+    "nodes",
+    "credentials",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksudrasulzada-cell/n8n-nodes-nero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maksudrasulzada-cell/n8n-nodes-nero/issues"
+  }
+}
