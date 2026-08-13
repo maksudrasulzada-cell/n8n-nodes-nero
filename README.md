@@ -1,6 +1,8 @@
 # n8n-nodes-nero
 
-An n8n community node for [NERO](https://app.aimedia.az) — the inbox behind AI Media's Instagram, Messenger, WhatsApp and Telegram bots.
+The **aimedia.az** node — an n8n community node for the AI Media inbox at [app.aimedia.az](https://app.aimedia.az), behind our Instagram, Messenger, WhatsApp and Telegram bots.
+
+In n8n it appears as **aimedia.az**. The npm package keeps the `n8n-nodes-` prefix because n8n only installs packages named that way.
 
 It replaces the stack of HTTP Request nodes a bot workflow needs. Every operation maps 1:1 onto an endpoint under `/api/v1`; the node supplies the parameter names, the validation and the error messages.
 

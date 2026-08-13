@@ -95,14 +95,14 @@ function errorBody(error) {
 class Nero {
 	constructor() {
 		this.description = {
-			displayName: 'NERO',
+			displayName: 'aimedia.az',
 			name: 'nero',
 			icon: 'file:aimedia.png',
 			group: ['output'],
 			version: 1,
 			subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 			description: 'Send messages and manage contacts in the NERO inbox',
-			defaults: { name: 'NERO' },
+			defaults: { name: 'aimedia.az' },
 			inputs: ['main'],
 			outputs: ['main'],
 			// Lets an AI Agent call these operations directly as tools, so the model
