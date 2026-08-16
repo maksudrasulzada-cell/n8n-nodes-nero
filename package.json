@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-aimedia",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "aimedia.az node for n8n — send Instagram/Messenger/WhatsApp/Telegram messages, record what the bot collects, pause the bot for a human, and read the catalogue.",
   "keywords": [
     "n8n-community-node-package",

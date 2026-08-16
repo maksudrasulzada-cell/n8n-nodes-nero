@@ -121,6 +121,7 @@ class Nero {
 						{ name: 'Contact', value: 'contact' },
 						{ name: 'Conversation', value: 'conversation' },
 						{ name: 'Catalog', value: 'catalog' },
+						{ name: 'Business Info', value: 'business' },
 					],
 				},
 
@@ -479,6 +480,24 @@ class Nero {
 					],
 				},
 
+				// ---------------- Business ----------------
+				{
+					displayName: 'Operation',
+					name: 'operation',
+					type: 'options',
+					noDataExpression: true,
+					displayOptions: { show: { resource: ['business'] } },
+					default: 'get',
+					options: [
+						{
+							name: 'Get',
+							value: 'get',
+							description: 'Company name, operator, numbers, hours — what the bot may quote',
+							action: 'Get business info',
+						},
+					],
+				},
+
 				// ---------------- Shared ----------------
 				{
 					displayName: 'Channel ID',
@@ -589,6 +608,9 @@ class Nero {
 						const minutes = this.getNodeParameter('minutes', i, 0);
 						if (minutes > 0) body.minutes = minutes;
 					}
+				} else if (resource === 'business') {
+					method = 'GET';
+					path = '/api/v1/business';
 				} else if (resource === 'catalog') {
 					method = 'GET';
 					path = '/api/v1/catalog';

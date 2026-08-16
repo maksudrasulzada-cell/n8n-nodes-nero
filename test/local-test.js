@@ -299,6 +299,13 @@ async function test(name, fn) {
 		assert.deepStrictEqual(req.qs, { category: 'Xalça', max_price: 100000 });
 	});
 
+	await test('business: a plain GET, no body', async () => {
+		const { req } = await run({ resource: 'business', operation: 'get' });
+		assert.strictEqual(req.method, 'GET');
+		assert.strictEqual(req.url, BASE + '/api/v1/business');
+		assert.strictEqual(req.body, undefined);
+	});
+
 	// ---- Errors ----
 	await test('409 with options names the accounts', async () => {
 		await assert.rejects(
@@ -387,6 +394,7 @@ async function test(name, fn) {
 			'lookup',
 			'setBot',
 			'search',
+			'get',
 		]) {
 			assert.ok(ops.includes(expected), `operation "${expected}" is missing from the UI`);
 		}
